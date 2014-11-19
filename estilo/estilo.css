@@ -1,0 +1,650 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.i2Style{
+font:bold 14px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color:#ffffff;
+background:#414192;
+border:0px solid #ffffff;
+text-shadow:0px -1px 1px #222222;
+box-shadow:2px 2px 5px #000000;
+-moz-box-shadow:2px 2px 5px #000000;
+-webkit-box-shadow:2px 2px 5px #000000;
+border-radius:10px 10px 10px 10px;
+-moz-border-radius:10px 10px 10px 10px;
+-webkit-border-radius:10px 10px 10px 10px;
+width:70px;
+padding:6px 40px;
+cursor:pointer;
+margin:0 auto;
+}
+.i2Style:active{
+cursor:pointer;
+position:relative;
+top:2px;
+}
+
+
+#container{
+    background-image: url(../imagens/seamless_paper_texture.png);   
+	background-repeat:repeat;
+	overflow: hidden; /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
+    width: 100%;
+    height: 100%;
+    position: fixed; /* criamos um contexto para posicionamento */
+}
+
+a.nounderline:link {
+	text-decoration:none;
+    
+	text-align:center;
+
+  	font-family: sans-serif;
+	font-size: 14px;
+	font-style: normal;
+} 
+ 
+#conteudo {
+width: 80%;
+	height: 760px;
+	background-color:#C60;	
+	
+}
+
+#tabelas {
+width: 80%;
+	height: 760px;
+	border:1px #F00;	
+	
+}
+
+#geral{
+	width: 100%;
+    background-image: url(../imagens/bg.png);
+	height: 1200px;
+	padding:0px;
+	margin:0px;
+	margin:0 auto;
+}
+
+#cadastro_centralizado{
+	width: 600px;
+	position: absolute;
+	left:50%;
+	margin: 0 0 0-200px;
+	
+	
+}
+
+#listar_dados_table{
+
+   width: 800px; 
+   position: absolute; 
+   left:50%;
+   margin: 0 0 0-400px;	
+	
+	
+}
+
+/*
+#menu_biblioteca{
+	width: 1070px;
+	height:33px;
+	background-color:#414192;
+	color:#F00;
+} */
+ #corpo {
+  	/* width:1024px;
+
+  	background-color:#FFF; 
+  	margin:0 auto;
+ 	box-shadow: 0px 0px 2px black;
+	*/
+	color:#999;
+	box-shadow: 0px 0px  5px black;
+	background-color:#FFF;
+	width: 1070px;
+	margin: 0px auto;
+	height:1200px;
+}
+
+#logo_mater{
+  margin-left:140px;
+  margin-bottom:400px;
+  margin-top:28px;
+  position:fixed;
+  height:111px;
+  width:142px;
+  cursor:pointer;
+  position:absolute;
+  background-image:url(../imagens/logo_mater.png);	
+   	
+}
+#logo {
+  margin-left:280px;
+  margin-bottom:300px;
+  margin-top:40px;
+  position:fixed;
+  height:101px;
+  width:350px;
+  z-index:1;
+  position:absolute;
+  cursor:pointer;
+  background-image:url(../imagens/logo.png);	
+}
+
+#menu {
+ height:50px;
+ width:100%;
+ background-color:#09F;	
+}
+
+#listar_table{
+	align:center;
+	width:99%;
+    margin:auto;
+	border-radius:10px;
+	font: normal 14px sans-serif;
+	color:#000;
+	background-color:#E9E9E9;
+
+}
+
+#tabela_legenda{
+  padding:5px;	
+  border-radius:8px;
+  background-color:#b6b6b6;
+  border-radius:8px;
+  margin-top:15px;
+  margin-left:5px;
+  margin-bottom:10px;
+
+}
+
+.input-div option{
+	padding-left:3px;
+	font: normal 13px sans-serif;
+	color:#0C0;
+	border-radius:3px;
+	border: 1px solid #999;
+	outline:none;
+	width:200px;
+	height:35px;	
+}
+ 
+#topo{
+	width: 1068px ;/* largura antiga do login 100% */
+	height:146px; 
+	background-image:url(../imagens/SBMC2.png);
+	background-position:center;
+	margin: 0px  auto 0px;
+    background-size: cover;
+}
+
+#topo_login{
+	width: 100%;
+	height:146px; /* Altura antiga do login 140px */
+	background-image:url(../imagens/logo2.png);
+	background-position:center;
+	margin: 0px  auto 0px;
+	background-repeat:no-repeat;
+}
+ 
+#caixa_login{
+	border:5px;
+	border-bottom-color:#09F;
+	/*background-color: #F2F2F2;*/
+	width:500px;
+	height:300px;
+	margin: 0px  auto 0px;
+	border-radius:5px;
+	
+}
+
+#caixa_login_interno{
+	width:480px;
+	height:289px;
+	background-color:#FFF;
+	position:absolute;
+	margin:10px;
+	border-radius:5px;
+	box-shadow: 0px 0px 5px black;
+	overflow:hidden;
+	letter-spacing:5px;
+	 
+}
+
+#caixa_login_label{
+	 text-align:center;
+	 height:45px;
+	 font: bold 15px/45px sans-serif;/* 45px é o tamanho da linha para que o texto fique alinhado. */	
+	 border-bottom: 1px solid white;
+	 box-shadow: 1px 0px 5px black;
+	 color:#171717;
+	 text-shadow: 1px 0px 2px white;
+
+	 background: rgb(238,238,238); /* Old browsers */
+	 background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(238,238,238,1))); /* 			     Chrome,Safari4+ */
+	 background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	 background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+	 background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+	 background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+
+}
+
+.input-div{
+  padding:5px;	
+  background-color:#F2F2F2;
+  border-radius:3px;
+  width:325px;
+  margin:40px auto 20px;
+ 
+ 
+}
+
+
+.input-div input{
+	width:320px;
+	height:35px;
+	
+
+	padding-left:3px;
+	font: normal 13px sans-serif;
+	color:#999;
+	border-radius:3px;
+	border: 1px solid #999;
+	outline:none;
+	
+	
+}
+
+.input-div:hover{
+	background-color:#C6F4D3;
+} 
+
+.input-div:hover input{
+	border-color:#7dc6dd;
+	color:#171717;
+	text-shadow:1px 0px 1px white;
+}
+
+#input-senha{
+	margin-top:10px;
+}
+
+.input-divs{
+  padding:5px;	
+  background-color:#F2F2F2;
+  border-radius:3px;
+  width:130px;
+  margin:40px auto 20px;
+  color : #171717; 
+ 
+ 
+}
+.input-divs input{
+	width:130px;
+	height:35px;
+	
+
+	padding-left:3px;
+	font: normal 13px sans-serif;
+	color:#999;
+	border-radius:3px;
+	border: 1px solid #999;
+	outline:none;
+	
+	
+}
+
+.input-divs:hover{
+	background-color:#C6F4D3;
+} 
+
+.input-divs:hover input{
+	border-color:#7dc6dd;
+	color:#555555;
+	text-shadow:1px 0px 1px white;
+
+}
+
+/*
+apagar
+
+*/
+
+
+#input-logar{
+	
+	margin-top:10px;
+}
+
+
+
+#botao{
+	margin:10px 55px 0px;
+	float:right;
+	background-color:#0CF;
+	padding: 5px 25px;
+	font: bold 12px  sans-serif;
+	border-radius:10px;
+	text-shadow: 0px 1px 0px white;
+	border: 1px solid #9eb9c3;
+	color:#999;
+	
+
+	 background: rgb(238,238,238); /* Old browsers */
+	 background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(238,238,238,1))); /* 			     Chrome,Safari4+ */
+	 background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	 background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+	 background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+	 background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+
+}
+
+#botao:hover{
+background: rgb(204,204,204); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(204,204,204,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,204,204,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(204,204,204,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(204,204,204,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(204,204,204,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(204,204,204,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+cursor:pointer;
+	
+}
+
+
+body {
+
+   margin:0px;
+   border:0px;
+   width:100%;
+   font-size: 70%;
+   line-height: 1.25em;
+   font-family: Verdana,sans-serif;
+   color: #333;
+   margin: 0px;
+   padding: 0px;
+
+
+}
+
+#conteudo_geral{
+	width:100%;
+	/* define barra de rolagem automatica quando o 
+conteudo ultrapassar o limite em x ou y 
+
+	overflow: hidden;*/
+
+
+	margin-left:3px;
+    background-color:#F3F3F3;
+/*background-color:#F3F3F3;	text-shadow: 1px 0px 2px white;  */
+
+	font: bold 14px  sans-serif;
+	text-align:left;
+	color:#555555;
+
+
+
+	
+	
+}
+
+
+#conteudo{
+	centrlizado	padding-left:5px;
+	font: bold 14px  sans-serif;
+	text-align:left;
+	width:100%;
+	height:800px;
+	color:#555555;
+	text-shadow: 1px 0px 2px white;
+	margin-top:20px;
+
+	
+}
+/*Selecione o conteudo pai, e diz que todos os filhos, vao posiciona-se a direita.*/
+#conteudo>div{
+  float:left;
+}
+
+#conteudo_interno{
+	width:450px;
+	background-color:#FFF;
+	height:230px;
+	border-radius:8px;
+	border: 3px solid #017cc0;
+	font: bold 14px  sans-serif;
+	text-align:left;
+	color:#017cc0;
+	/*	text-shadow: 1px 0px 2px white;	
+box-shadow:1px 0px 12px white;*/
+	margin-top:10px;
+	padding-top:20px;
+	padding-left: 25px;
+	margin-left:10px;
+}
+
+#total_chamados{
+	width:450px;
+	background-color:#FFF;
+	height:230px;
+	border-radius:8px;
+	border: 3px solid #017cc0;
+	font: bold 14px  sans-serif;
+	color:#017cc0;
+	/*text-shadow: 1px 0px 2px white;
+box-shadow:1px 0px 12px white;*/
+	margin-top:10px;
+	padding-top:20px;
+	padding-left:25px;
+	margin-left:20px;
+
+}
+
+
+#dados_usuario{
+	font: bold 14px  sans-serif;
+	text-align:left;
+	color:#555555;
+	margin-right:20px;
+	text-shadow: 1px 0px 2px white;
+	padding:3px;
+	width:445px;
+	
+}
+
+#tudo{
+	background-color:#6F0;
+	width:200px;
+	
+}
+
+
+
+/*
+Página de menu
+
+*/
+
+
+a {
+	color: #333;
+}
+
+
+#rodape{
+	text-align:center;
+	color:#171717;
+	text-shadow: 1px 0px 2px white; 
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bold;  
+	height:40px;
+	background-image:url(../imagens/rodape.png);
+}
+
+
+#rodape_home{
+	border-radius: 8px;
+	background-image: url(../imagens/bakcground_rodape.png);
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin: 0px;
+	width: 100%;
+
+	bottom:0 !important;
+}
+
+#tabela_rodape{
+	font: bold 16px sans-serif;
+	color:#FFF;
+	text-align:left;
+	height:150px;
+
+  	
+}
+
+.texto_branco{
+   font: normal 14px sans-serif;
+   text-align:left;
+   margin-top:0px;
+   
+} 
+
+#texto_rodape{
+	text-align:right;
+	color:#FFF;
+	margin-top:20px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	
+	
+}
+
+
+select {
+	background-color: #017cc0;
+	color: #FFF;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 14px;
+	-webkit-appearance: none;
+	  border-radius:5px;
+	 box-shadow: 0px 0px 5px #999;
+	 overflow:hidden;  
+	 height:20px;
+	
+}
+
+select:hover{
+	background-color:#999;
+} 
+
+select:hover select{
+	border-color:#999;
+	color:#555555;
+	text-shadow:1px 0px 1px white;
+}
+
+/*
+textarea{
+background-color:#017cc0;	
+font-weight: bold;
+	font-family: sans-serif;
+	font-size: 14px;
+	color:#FFF;
+
+}
+
+textarea:hover{
+		background-color:#999;
+		color:#FFF;
+	
+}
+
+textarea:hover textarea{
+	border-color:#CC0;
+	color:#555555;
+	text-shadow:1px 0px 1px white;
+}
+*/
+
+#tabela{
+	/*width: 700px; 555555  */
+	border: 0px solid #06F;
+	color: #000;
+
+
+}
+
+.campo_pesquisa{
+
+	
+		background-color: #017cc0;
+	color: #FFF;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 14px;
+	-webkit-appearance: none;
+	  border-radius:5px;
+	 box-shadow: 0px 0px 5px #999;
+	 overflow:hidden;  
+	 
+	
+}
+
+.botao_pesquisa{
+	background-color:#333;	
+    font-weight: bold;
+	font-family: sans-serif;
+	font-size: 15px;
+	color:#FFF;
+	height:30px;
+	border-radius:10px;
+	padding:3px;
+
+	
+}
+
+
+#topo_tabela{
+	color:#017cc0;
+	padding:3px;
+	font: bold 15px  sans-serif;
+	letter-spacing:7px;
+	/*background-image: url(../imagens/bakcground_rodape.png); 
+	background-repeat: repeat;*/
+	border-radius:13px;
+	text-align:center;
+	background-color:#B6B6B6;
+	margin-top:20px;
+	width: 100%;
+	
+}
+
+#rodape_tabela{
+	color:#017cc0;
+	padding:3px;
+	font: bold 15px  sans-serif;
+	border-radius:13px;
+	background-color:#B6B6B6;
+    margin-top:10px;	
+	margin-bottom:10px;
+	margin-left:7px;
+}
